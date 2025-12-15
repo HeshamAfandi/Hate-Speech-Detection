@@ -27,3 +27,21 @@ The dataset consists of 19,826 labeled tweets and is stored in `data/hate_speech
 
 ## Author
 Hesham El Afandi
+
+## Installation
+
+### 1. Install required libraries
+
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Download required NLTK resources
+Run the following once in Python:
+
+```bash
+import nltk
+nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
+```
